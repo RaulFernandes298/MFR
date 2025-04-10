@@ -5,7 +5,6 @@ Ry = 0
 
 numforces = 0
 
-
 numforces = input("Number of forces: ")
 
 for i in range(int(numforces)):
@@ -20,3 +19,10 @@ print(math.sqrt(Rx*Rx + Ry*Ry))
 
 print("Angle: ")
 print(math.atan(Ry / Rx))
+
+
+
+
+
+
+
