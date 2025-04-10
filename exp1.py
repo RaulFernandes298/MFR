@@ -3,12 +3,12 @@ import math
 Rx = 0
 Ry = 0
 
-forces = 0
+numforces = 0
 
 
-forces = input("Number of forces: ")
+numforces = input("Number of forces: ")
 
-for i in range(int(forces)):
+for i in range(int(numforces)):
     force = input("Force: ")
     angle = input("Angle: ")
     a =  math.radians(float(angle))
